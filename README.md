@@ -1,4 +1,4 @@
-from pathlib import Path
+
 
 html = """<!DOCTYPE html>
 <html lang="en">
@@ -93,6 +93,4 @@ a{color:#2563eb;text-decoration:none}
 </body>
 </html>"""
 
-path = "/mnt/data/Pranav_Security_Portfolio.html"
-Path(path).write_text(html, encoding="utf-8")
-print(path)
+
