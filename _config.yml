@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranav Ramakrishnan | Security Operations & AI Automation</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#ffffff;
+    color:#111827;
+    line-height:1.7;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+header{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    font-size:1.3rem;
+    font-weight:500;
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:650px;
+    color:#6b7280;
+    font-size:1.1rem;
+}
+
+.btn-group{
+    margin-top:35px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 22px;
+    border-radius:10px;
+    text-decoration:none;
+    margin-right:12px;
+    transition:0.3s;
+}
+
+.primary{
+    background:#111827;
+    color:white;
+}
+
+.secondary{
+    border:1px solid #d1d5db;
+    color:#111827;
+}
+
+.primary:hover{
+    opacity:0.9;
+}
+
+.secondary:hover{
+    background:#f3f4f6;
+}
+
+section{
+    padding:100px 0;
+}
+
+.section-title{
+    font-size:2rem;
+    margin-bottom:40px;
+}
+
+.about{
+    max-width:850px;
+    color:#4b5563;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    border:1px solid #e5e7eb;
+    border-radius:16px;
+    padding:25px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    margin-bottom:12px;
+}
+
+.card p{
+    color:#6b7280;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.skill{
+    background:#f3f4f6;
+    padding:10px 16px;
+    border-radius:999px;
+    font-size:14px;
+}
+
+footer{
+    padding:50px 0;
+    border-top:1px solid #e5e7eb;
+    text-align:center;
+    color:#6b7280;
+}
+
+a{
+    color:#2563eb;
+    text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<div class="hero">
+
+<h1>Pranav Ramakrishnan</h1>
+
+<h2>Security Operations Engineer · Vulnerability Management · AI Automation</h2>
+
+<p>
+Security-focused analyst with experience in vulnerability management,
+SIEM engineering, endpoint monitoring, and security reporting.
+Passionate about applying AI and automation to modern Security Operations.
+</p>
+
+<div class="btn-group">
+<a class="btn primary" href="Pranav_Ramakrishnan_CV.pdf">Download CV</a>
+
+<a class="btn secondary"
+href="https://github.com/Pranav25072001"
+target="_blank">
+GitHub
+</a>
+</div>
+
+</div>
+</header>
+
+<section>
+
+<h2 class="section-title">About</h2>
+
+<div class="about">
+
+<p>
+I combine Security Operations expertise with Data Analytics and Machine Learning.
+My work includes vulnerability management, SIEM implementation, security reporting,
+and building data-driven workflows that help organizations detect and respond faster.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Experience</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>RJ Tech Pvt Ltd</h3>
+<h4>Data Analyst & Vulnerability Management Analyst</h4>
+<p>
+Conduct vulnerability assessments, prioritize remediation efforts,
+and develop security dashboards that track risk exposure and remediation progress.
+</p>
+</div>
+
+<div class="card">
+<h3>CyArt Tech</h3>
+<h4>Security Analyst</h4>
+<p>
+Built a centralized SIEM platform using Wazuh and MongoDB,
+deployed endpoint monitoring solutions, and supported security investigations.
+</p>
+</div>
+
+<div class="card">
+<h3>EyeQ Dot Net</h3>
+<h4>Data Analyst</h4>
+<p>
+Managed large-scale data collection initiatives and developed dashboards
+supporting operational and business decision making.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Security Data Correlation Dashboard</h3>
+<p>
+Unified CrowdStrike and Tenable security data into a centralized dashboard
+for reporting, triage, and risk visibility.
+</p>
+</div>
+
+<div class="card">
+<h3>SIEM Platform</h3>
+<p>
+Designed and implemented a Wazuh + MongoDB SIEM solution
+for centralized security monitoring.
+</p>
+</div>
+
+<div class="card">
+<h3>Earthquake Magnitude Prediction</h3>
+<p>
+Machine Learning project exploring predictive models
+for earthquake risk reduction and early warning systems.
+</p>
+
+<br>
+
+<a href="https://github.com/Pranav25072001/Earthquake-magnitude-prediction" target="_blank">
+View Project →
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+
+<span class="skill">Wazuh</span>
+<span class="skill">CrowdStrike</span>
+<span class="skill">Tenable</span>
+<span class="skill">Python</span>
+<span class="skill">SQL</span>
+<span class="skill">MongoDB</span>
+<span class="skill">Power BI</span>
+<span class="skill">Machine Learning</span>
+<span class="skill">Security Operations</span>
+<span class="skill">Vulnerability Management</span>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Certifications</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>CompTIA Security+</h3>
+<p>Certified</p>
+</div>
+
+<div class="card">
+<h3>Red Hat System Administration</h3>
+<p>RHCSA Certified</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+Pranav Ramakrishnan · Security Operations & AI Automation Portfolio
+</p>
+
+</footer>
+
+</div>
+
+</body>
+</html>
