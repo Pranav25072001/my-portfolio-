@@ -1,6 +1,6 @@
 
 
-html = """<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -91,6 +91,6 @@ a{color:#2563eb;text-decoration:none}
 </section>
 
 </body>
-</html>"""
+</html>""
 
 
